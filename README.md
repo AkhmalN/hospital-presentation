@@ -12,17 +12,6 @@ A web-based presentation application built with React, TypeScript, and Tailwind 
 
 - [About The Project](#about-the-project)
 - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
-  - [Building for Production](#building-for-production)
-- [Usage](#usage)
-- [Features](#features)
-- [Project Structure (Optional)](#project-structure-optional)
-- [Contributing (Optional)](#contributing-optional)
-- [License (Optional)](#license-optional)
-- [Contact (Optional)](#contact-optional)
 
 ## About The Project
 
