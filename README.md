@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+# Hospital Management System - Presentation Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.x-blue?style=flat-square&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-5.x-purple?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Lucide Icons](https://img.shields.io/badge/Lucide-Icons-orange?style=flat-square)](https://lucide.dev/)
 
-Currently, two official plugins are available:
+A web-based presentation application built with React, TypeScript, and Tailwind CSS to visually explain and demonstrate the features and workflow of a Hospital Management System (HMS).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [About The Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+  - [Building for Production](#building-for-production)
+- [Usage](#usage)
+- [Features](#features)
+- [Project Structure (Optional)](#project-structure-optional)
+- [Contributing (Optional)](#contributing-optional)
+- [License (Optional)](#license-optional)
+- [Contact (Optional)](#contact-optional)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## About The Project
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This application serves as an interactive presentation or briefing tool designed to showcase the functionalities of a conceptual or existing Hospital Management System. It aims to provide a clear and engaging way to walk stakeholders, clients, or team members through the different modules and processes involved in managing hospital operations, such as patient registration, appointment scheduling, billing, inventory, etc.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Note:** This is a _presentation application_ and not the actual functional Hospital Management System itself.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Built With
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project leverages modern web technologies:
+
+- **[React.js](https://reactjs.org/):** A JavaScript library for building user interfaces.
+- **[TypeScript](https://www.typescriptlang.org/):** A typed superset of JavaScript that compiles to plain JavaScript.
+- **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapid UI development.
+- **[Vite](https://vitejs.dev/):** A fast frontend build tool and development server.
+- **[Lucide Icons](https://lucide.dev/):** Beautiful & consistent open-source icons.
